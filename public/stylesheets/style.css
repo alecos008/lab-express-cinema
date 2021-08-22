@@ -29,3 +29,23 @@ a {
   border-radius: 100px;
   font-size: 20px;
 }
+.movies-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 15vw;
+}
+.movie {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.movie-link,
+h2 {
+  text-align: center;
+}
+.btn-link:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 7px 0 -2px #f85959, 0 15px 0 -4px #39a2db,
+    0 16px 10px -3px #39a2db;
+}

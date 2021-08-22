@@ -1,5 +1,6 @@
 const { Schema, model } = require("mongoose");
 
+//* Defining the DB schema
 const movieSchema = new Schema({
   title: String,
   director: String,
